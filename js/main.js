@@ -33,13 +33,13 @@ $(function(){
 //     }
 // };
 
-var ipfsHost = "http://35.154.100.236:8080";
+var ipfsHost = "http://teamjugaad.tk:8080";
 var selectedFile = undefined;
 
 function upload(){
     const reader = new FileReader();
     reader.onloadend = function() {
-      const ipfs = window.IpfsApi('35.154.100.236', 5001) // Connect to IPFS
+      const ipfs = window.IpfsApi('https://teamjugaad.tk', 443) // Connect to IPFS
       const buf = buffer.Buffer(reader.result) // Convert data into buffer
       ipfs.files.add(buf, (err, result) => { // Upload buffer to IPFS
         if(err) {
