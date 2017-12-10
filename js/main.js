@@ -2,9 +2,10 @@ $(function(){
 	$(".typed").typed({
         strings: [
             "SHARED AN ART ?",
+            "A PRODUCT FROM TEAM JUGAAD",
             "PIRATED ?",
             "NEED CREDIBILITY ?",
-            "WE HAVE YOUR BACK.^1000 OPENART"],
+            "WE HAVE YOU BACK.^1000 OPENART"],
 		stringsElement: null,
 		typeSpeed: 30,
 		startDelay: 1200,
@@ -32,13 +33,13 @@ $(function(){
 //     }
 // };
 
-var ipfsHost = "http://localhost:8080";
+var ipfsHost = "http://35.154.100.236:8080";
 var selectedFile = undefined;
 
 function upload(){
     const reader = new FileReader();
     reader.onloadend = function() {
-      const ipfs = window.IpfsApi('localhost', 5001) // Connect to IPFS
+      const ipfs = window.IpfsApi('35.154.100.236', 5001) // Connect to IPFS
       const buf = buffer.Buffer(reader.result) // Convert data into buffer
       ipfs.files.add(buf, (err, result) => { // Upload buffer to IPFS
         if(err) {
@@ -157,7 +158,7 @@ function drop_handler(ev) {
     web3 = new Web3(web3.currentProvider);
   } else {
     // set the provider you want from Web3.providers
-    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://35.154.100.236:8545"));
   }
 
   var source = `
