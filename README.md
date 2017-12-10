@@ -43,5 +43,5 @@ IPFS and the Blockchain are a perfect match! You can address large amounts of da
 ![Alt text](https://raw.githubusercontent.com/mdakram28/openart/master/Screenshota.png?token=AYtQiRisNb9H0ePg3fVSZ_WimvihnTERks5aNV_VwA%3D%3D)
 
 # Website Link
-**https://app.hickey15.hasura-app.io/**
+**https://www.bobbysoxer98.hasura-app.io/**
 
