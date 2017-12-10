@@ -45,3 +45,21 @@ IPFS and the Blockchain are a perfect match! You can address large amounts of da
 # Website Link
 **https://www.bobbysoxer98.hasura-app.io/**
 
+# Available Ethereum addr 
+
+
+'''
+Available Accounts
+==================
+(0) 0x5998541487301c1a78a56d23d21864f4f2380d66
+(1) 0xc01193f307476ed6b728896951306f52e3e02846
+(2) 0x26848071b863891f98f2381711232677e0437665
+(3) 0x1b7d0bc9e9022695c85d06795b355f0e89e448da
+(4) 0x92989c4b49170d4fbea6e8c46f5c43fe571b4d88
+(5) 0xcb8c88e096d169227f4a91a4f80f02c07c312f54
+(6) 0x537d7b63ce65d1548234ae56e9783a8b781681dc
+(7) 0x71bbbf2f081e593cc4330e1b4cccc49ace0ed08f
+(8) 0x6c56c0e98e4df5f7d7cef7bf57daa140b1593bfd
+(9) 0xf6272f4e6330af9f366c69ef93945a2f13ab81c1
+
+'''
