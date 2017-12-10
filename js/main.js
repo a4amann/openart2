@@ -39,7 +39,7 @@ var selectedFile = undefined;
 function upload(){
     const reader = new FileReader();
     reader.onloadend = function() {
-      const ipfs = window.IpfsApi('http://teamjugaad.tk', 5001) // Connect to IPFS
+      const ipfs = window.IpfsApi('teamjugaad.tk', 5001) // Connect to IPFS
       const buf = buffer.Buffer(reader.result) // Convert data into buffer
       ipfs.files.add(buf, (err, result) => { // Upload buffer to IPFS
         if(err) {
